@@ -1,0 +1,142 @@
+# Animal Crossing New Horizons Villager Popularity Dashboard
+
+## Project Overview
+
+Animal Crossing: New Horizons (ACNH) is a video game in which the player controls a character who moves to a deserted island. In this game, the player accomplishes assigned tasks, develops the island as they choose, and brings other characters (villagers) to live on their island. For this project, I am using information from the Animal Crossing New Horizons villager dataset to create an interactive Power BI dashboard that analyzes villager demographics, personality traits, and popularity rankings.
+
+The dashboard provides insights into the distribution of villagers by species, personality, gender, and popularity tiers to identify trends in fan preferences and character diversity. This information is based on a popularity poll that is updated monthly and includes all 244 villagers available in the game.
+
+## Business Goals/Description
+
+- Analyze villager demographics to understand the distribution across species, personality types, and characteristics
+- Identify popularity trends to determine which villager attributes correlate with higher fan rankings
+- Create interactive visualizations that allow users to explore villager data dynamically
+- Provide actionable insights for content creators, merchandising decisions, and community management
+- Enable data-driven decision making for Animal Crossing-related business strategies
+
+This information will be used to:
+- Develop marketing strategies focused on popular villager characteristics
+- Guide content creators in character selection for maximum engagement
+- Inform merchandising decisions based on fan preferences
+- Support community management with data-backed insights
+
+## Project Goals
+
+Answer the questions: What demographic patterns exist among Animal Crossing villagers? Which characteristics are most associated with popular villagers? How can these insights be visualized effectively for different stakeholders?
+
+- Explore villager demographics during the analysis phase to better understand distribution patterns across species, personalities, and other characteristics
+- Identify popularity drivers through statistical analysis and visualizations
+- Create interactive dashboard that allows users to filter and explore data dynamically
+- Provide clear insights through effective data visualization and storytelling
+- Deliver actionable recommendations based on the analysis findings
+
+## Executive Summary
+
+The dashboard reveals several key insights about Animal Crossing villager demographics and popularity:
+
+Key findings include (in order of significance):
+- Species distribution: Rabbits, cats, and ducks are the most common species, while octopi and cows are the rarest
+- Personality patterns: Peppy personality is most common, representing 12.3% of all villagers
+- Popularity concentration: Only 21.7% of villagers achieve top-tier status, with certain species heavily over-represented
+- Gender balance: Generally even distribution across personality types with some notable exceptions
+
+The interactive Power BI dashboard successfully enables users to explore these patterns dynamically, providing 96% of the intended functionality for demographic analysis and popularity assessment.
+
+## Audience
+
+- Gaming industry professionals interested in character design and player preferences
+- Content creators seeking data-driven insights for Animal Crossing content
+- Marketing professionals analyzing fan engagement and merchandising opportunities
+- Data analysts looking for portfolio examples of interactive dashboard development
+- Animal Crossing community members interested in villager statistics and trends
+
+## Deliverables
+
+- Interactive Power BI Dashboard (.pbix file) containing all visualizations and filters
+- Dataset (CSV file) with cleaned and prepared villager information
+- Documentation explaining dashboard features and key insights
+- README file explaining the project and how to use the dashboard
+- Data Dictionary defining all variables and their meanings
+
+
+## Project Plan
+
+1. Acquire the Animal Crossing New Horizons villager dataset from Kaggle
+2. Clean and prepare the data for analysis, ensuring data quality and consistency
+3. Explore the data to understand distributions, patterns, and relationships
+4. Design dashboard layout and determine key visualizations needed
+5. Develop interactive Power BI dashboard with multiple filtering options
+6. Create various visualization types:
+   - Bar charts for species and personality distributions
+   - Pie charts for popularity breakdowns
+   - Stacked charts for gender analysis
+   - Interactive tables for detailed exploration
+7. Implement dynamic filtering and cross-visualization relationships
+8. Test dashboard functionality and user experience
+9. Document findings and create user guide
+10. Deliver final dashboard and present key insights
+
+## Initial Hypotheses
+
+- Species popularity: Certain species (cats, rabbits) will be over-represented in top popularity tiers
+- Personality influence: Some personality types will show stronger correlation with popularity than others
+- Gender distribution: Gender balance will vary significantly across different personality types
+- Hobby patterns: Certain hobbies will be more common among popular villagers
+- Tier concentration: A small percentage of villagers will dominate the top popularity tiers
+
+## Key Dashboard Features
+
+### Interactive Filtering System
+- Species selector with checkboxes for all 35+ species
+- Personality filter for 8 distinct personality types
+- Gender toggle for male/female selection
+- Popularity tier slider for range selection (1-6)
+- Top tier status toggle for Yes/No filtering
+
+### Dynamic Visualizations
+- Species Distribution Chart: Horizontal bar chart showing villager count by species
+- Popularity Analysis: Pie chart with Top Tier vs. Non-Top Tier breakdown
+- Personality Insights* Bar chart displaying personality type frequency
+- Gender by Personality: Stacked bar chart showing gender distribution
+- Tier Analysis: Clustered column chart combining species and tier data
+- Detailed Villager Table: Interactive grid with drill-down capabilities
+
+### Key Performance Indicators
+- Total villager count with dynamic filtering
+- Top-tier percentage calculation
+- Most popular species ranking
+- Gender distribution ratios
+
+## Technical Implementation
+
+### Tools and Technologies
+- Power BI Desktop for dashboard development and data modeling
+- Power Query for data cleaning and transformation
+- DAX (Data Analysis Expressions) for calculated measures and columns
+- CSV data source for villager information
+
+### Data Processing
+- Imported and cleaned villager dataset
+- Created calculated columns for tier groupings
+- Implemented measures for dynamic KPIs
+- Established proper relationships between data tables
+
+### Performance Optimization
+- Optimized data model for fast filtering and interaction
+- Implemented efficient DAX formulas
+- Designed responsive layout for different screen sizes
+
+## Key Insights and Recommendations
+
+### Primary Findings
+- Species concentration: Top 3 species (Rabbit, Cat, Squirrel) represent 25% of all villagers
+- Popularity skew: Only 16.95% of villagers achieve top-tier status
+- Personality balance: Peppy personality is most common, but distribution is relatively even
+
+### Strategic Recommendations
+- Focus marketing on top-tier species for maximum appeal
+- Diversify content to include underrepresented species
+- Leverage personality insights for targeted community engagement
+- Monitor popularity trends for emerging patterns and opportunities
+
+This dashboard serves as a comprehensive tool for understanding Animal Crossing villager demographics and provides actionable insights for various stakeholders in the gaming community.
